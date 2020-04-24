@@ -1,12 +1,49 @@
 footer {
-    font-family: $fontStyle;
-    width: 100vw;
-    height: 80px;
-    background:red;
-    .footer_inner {
-      @include displayFlex(row, space-between);
-      width: 80%;
-      height:100%;
-      margin:0 auto;
+  font-family: $fontStyle;
+  width: 100vw;
+  height: 160px;
+  background: $colorMain_blue;
+  .footer_inner {
+    @include displayFlex(row, space-between);
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    .footer_inner_contact {
+      @include displayFlex(column, center, flex-start);
+      width: 30%;
+      height: 100%;
+      color: white;
+      .footer_inner_contact_titleEN {
+        font-size: $fontSize_titleEN;
+        line-height: $fontSize_titleEN * 1.5;
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
     }
+    .footer_inner_link {
+      @include displayFlex(row);
+      width: 70%;
+      height: 100%;
+      background: $colorMain_white;
+      .footer_inner_link_logo {
+        @include displayFlex(row);
+        width: 40%;
+        .footer_inner_link_logo_1 {
+          font-size: $fontSize_logo/1.4;
+          font-weight: 600;
+          color: $colorMain_blue;
+        }
+        .footer_inner_link_logo_2 {
+          font-size: 3px;
+          font-weight: 600;
+          color: $colorMain_black;
+          margin-left: 5px;
+        }
+      }
+      .footer_inner_link_content {
+        width: 60%;
+        font-size: $fontSize_content;
+      }
+    }
+  }
 }
