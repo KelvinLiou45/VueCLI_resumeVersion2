@@ -1,0 +1,59 @@
+header {
+  font-family: $fontStyle;
+  width: 100vw;
+  height: 80px;
+  .header_inner {
+    @include displayFlex(row, space-between);
+    width: 80%;
+    height:100%;
+    margin:0 auto;
+    .header_logo {
+      @include displayFlex(row);
+      .header_logo_1{
+        font-size: $fontSize_logo;
+        font-weight: 600;
+        color:$colorMain_blue;
+      }
+      .header_logo_2{
+        font-size: 12px;
+        font-weight: 600;
+        color:$colorMain_black;
+        margin-left:5px;
+      }
+    }
+    .header_list {
+      @include displayFlex();
+      font-size: $fontSize_content;
+      font-weight: 600;
+      li {
+        position:relative;
+        list-style: none;
+        margin-right: 35px;
+        &::before{
+          content:'';
+          position:absolute;
+          bottom:-5px;
+          left:1px;
+          height:3px;
+          width:0;
+          background:$colorMain_black;
+          transition:0.5s;
+        }
+        a {
+          color: $colorMain_black;
+          text-decoration: none;
+          transition:0.5s;
+        }
+        &:hover{
+          a{
+            color:$colorMain_blue;
+          }
+          &::before{
+            width:100%;
+            background:$colorMain_blue;
+          }
+        }
+      }
+    }
+  }
+}

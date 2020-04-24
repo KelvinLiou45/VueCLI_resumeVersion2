@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans:wght@400;700&display=swap");
+
+$fontStyle:"Noto Sans","Noto Sans TC", sans-serif;;
+
+$fontSize_logo: 48px;
+$fontSize_content: 14px;
+$fontSize_titleTC: 30px;
+$fontSize_titleEN: 12px;
+
+$colorMain_black: #242424;
+$colorMain_blue: #0041c3;
+$colorMain_white: #f5f5f5;
+
+body::-webkit-scrollbar {
+    display: none;
+}
