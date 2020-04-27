@@ -10,7 +10,8 @@
             <p>聯繫我</p>
           </div>
           <div class="footer_inner_contact_emailButton">
-            <input type="button" value="Email">
+            <!-- <input type="button" value="Email"> -->
+            <p>kelvinliou45@gmail.com</p>
           </div>
           <div class="footer_inner_contact_phone">
             <p>0975-202-xxx</p>

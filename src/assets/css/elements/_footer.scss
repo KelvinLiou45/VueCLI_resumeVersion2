@@ -2,7 +2,7 @@ footer {
   font-family: $fontStyle;
   width: 100vw;
   height: 160px;
-  background: $colorMain_blue;
+  background: $colorMain_white;
   .footer_inner {
     @include displayFlex(row, space-between);
     width: 80%;
@@ -12,12 +12,27 @@ footer {
       @include displayFlex(column, center, flex-start);
       width: 30%;
       height: 100%;
-      color: white;
+      color: black;
       .footer_inner_contact_titleEN {
         font-size: $fontSize_titleEN;
         line-height: $fontSize_titleEN * 1.5;
         font-weight: 600;
+        color: $colorMain_blue;
         margin-bottom: 10px;
+      }
+      .footer_inner_contact_titleTC{
+        font-size: $fontSize_content;
+        font-weight:600;
+        margin-bottom:15px;
+      }
+      .footer_inner_contact_emailButton{
+        width:80%;
+        input{
+          border:1px solid black;
+          width:100%;
+          padding:10px;
+          background:none;
+        }
       }
     }
     .footer_inner_link {

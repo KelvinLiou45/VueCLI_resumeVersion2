@@ -15,23 +15,23 @@
         <nav>
           <ul class="header_list">
             <li>
-              <router-link to="/">首頁</router-link>
+              <router-link to="/" exact-active-class="_active">首頁</router-link>
               <!--home-->
             </li>
             <li>
-              <router-link to="/">個人簡介</router-link>
+              <router-link to="/introduce" exact-active-class="_active">個人簡介</router-link>
               <!--introduce-->
             </li>
             <li>
-              <router-link to="/">學歷及經驗</router-link>
+              <router-link to="/experience" exact-active-class="_active">學歷及經驗</router-link>
               <!--experience-->
             </li>
             <li>
-              <router-link to="/">技能</router-link>
+              <router-link to="/skill" exact-active-class="_active">技能</router-link>
               <!--skill-->
             </li>
             <li>
-              <router-link to="/">作品集</router-link>
+              <router-link to="/portfolio" exact-active-class="_active">作品集</router-link>
               <!--portfolio-->
             </li>
           </ul>

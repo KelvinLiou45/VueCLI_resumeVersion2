@@ -29,6 +29,19 @@ header {
         position:relative;
         list-style: none;
         margin-right: 35px;
+        ._active{
+          color:$colorMain_blue;
+          &::before{
+            content:'';
+            position:absolute;
+            bottom:-5px;
+            left:1px;
+            height:3px;
+            width:100%;
+            background:$colorMain_blue;
+            transition:0.5s;
+          }
+        }
         &::before{
           content:'';
           position:absolute;

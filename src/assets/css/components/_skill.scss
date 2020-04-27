@@ -1,0 +1,55 @@
+.skill {
+  @include displayFlex();
+  flex-wrap:wrap;
+  .skill_bg{
+    position:absolute;
+    top:45%;
+    left:0;
+    width:20%;
+    height:500px;
+    z-index:-1;
+    transform:translateY(-50%);
+    &::before{
+      content:'';
+      position:absolute;
+      top:50px;
+      left:50px;
+      width:100%;
+      height:100%;
+      background:$colorMain_white;
+      z-index:-2;
+    }
+    img{
+      height:100%;
+      border-radius:0 5px 5px 0;
+    }
+  }
+  .skill_area1 {
+    @include displayFlex(row,flex-start);
+    width: 35%;
+    height:200px;
+    margin:0 10px;
+    padding:20px;
+    box-sizing: border-box;
+    .skill_area1_imgBx {
+      @include displayFlex();
+      width: 35%;
+      height:100%;
+      
+      img {
+        width: 100px;
+      }
+    }
+    .skill_area1_content{
+        @include displayFlex(column,flex-start,flex-start);
+        width: 65%;
+        font-family: $fontStyle;
+        .skill_area1_content_title{
+            font-size:20px;
+            font-weight:600;
+            color:$colorMain_blue;
+            margin-bottom:15px;
+        }
+    }
+  }
+}

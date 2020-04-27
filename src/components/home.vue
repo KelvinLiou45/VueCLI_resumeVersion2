@@ -3,6 +3,7 @@
     <div class="article_inner">
       <div class="home_area1">
         <div class="home_area1_imgBx">
+          <div class="home_area1_imgBx_back"></div>
           <img src="../assets/images/home/area1.jpg" alt>
         </div>
         <div class="home_area1_content">
@@ -14,11 +15,17 @@
             <p>也能是行銷人員</p>
           </div>
           <div class="home_area1_content_details">
-            <p>我的名字是劉承楷，畢業於「樹德科技大學-資訊工程系」。在學時期主修JAVA，並搭配使用SQL撰寫Android手機軟體，現今主要專研"前端網頁"相關技術。(HTML CSS Javascript等..)</p>
-            <p>在第一線銷售的工作已經有多年的經驗，不但了解門市的營運模式，也參與過展覽及企業之間的共工過程。</p>
-            <p>"既能進行產品的開發，也能站在前線與客戶溝通"，我相信這一點將會是自己在職場上的競爭力。</p>
+            <p>我的名字是劉承楷，畢業於「樹德科技大學-資訊工程系」。總是利用下班時間進修自己，現今專研Front-End相關技術中。</p>
+            <p>由於在第一線銷售的工作已經有多年的經驗，不但了解門市的營運模式，也參與過展覽銷售的經驗。</p>
+            <p>"能進行產品的開發，也能與客戶溝通"，我相信這一點將會是我在職場上的競爭利器。</p>
           </div>
         </div>
+      </div>
+      <div class="home_bg">
+        <p>
+          Smile everyday from today.
+          <br>Nothing really matters except to live or die.
+        </p>
       </div>
     </div>
   </article>
