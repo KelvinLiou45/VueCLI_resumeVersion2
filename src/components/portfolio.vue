@@ -3,29 +3,78 @@
     <div class="article_inner">
       <div class="page_area1">
         <div class="page_area1_imgBx">
-          <img src="../assets/images/experience/stu_bg.jpg" alt>
+          <img src="../assets/images/portfolio/cssEffect.png" alt>
         </div>
         <div class="page_area1_content">
           <div class="page_area1_content_titleEN">
-            <p>2014 BEFORE - STU</p>
+            <p>CSS EFFECT</p>
           </div>
           <div class="page_area1_content_titleTC">
-            <p>樹德科技大學</p>
-            <p class="secTitle">資訊工程系- 學生、助教</p>
+            <p>CSS效果練習</p>
+            <p class="secTitle">透過CSS實現酷炫效果</p>
           </div>
           <div class="page_area1_content_details">
+            <p>大量使用transfrom操作偽元素實現酷炫效果。使用flexbox或grid進行排版，同時使用@media實作出RWD。</p>
             <p>
-              ●學習內容:
-              <br>1. 主要以 Java 為學習主軸。
-              <br>2. 專題製作: Android系統用記帳軟體。(SQLite、SQL)
-              <br>3. RVSP 2011 第一屆國際機器人競賽 - 金牌
-            </p>
-            <p>
-              ●學習狀況:
-              <br>就學期間順利通過java的oracle考試認證(OCJP)，以及考取Parallax Certified Professional (PCP)證照。也曾擔任"嵌入式系統課程"助教，協助製作教材及授課。
+              <a href="https://kelvinliou45.github.io/CssEffect/">Github Page(僅效果、不具RWD)</a>
+              <br>
+              <a href="https://github.com/KelvinLiou45/CssEffect_Sass">使用Sass重構後的程式(具RWD)</a>
             </p>
           </div>
         </div>
+      </div>
+      <div class="page_area1">
+        <div class="page_area1_imgBx">
+          <img src="../assets/images/portfolio/smartAngel.png" alt>
+        </div>
+        <div class="page_area1_content">
+          <div class="page_area1_content_titleEN">
+            <p>SMART ANGEL</p>
+          </div>
+          <div class="page_area1_content_titleTC">
+            <p>記帳天使</p>
+            <p class="secTitle">Android App</p>
+          </div>
+          <div class="page_area1_content_details">
+            <p>
+              大學時的專題作品，利用手機鏡頭掃描商品上的二維條碼，在資料庫中抓取對應的商品資訊，進而完成記帳的動作。(從程式、設計及美術獨自一人完成)
+              <br>
+            </p>
+            <p>
+              程式語言: Java、PHP
+              <br>資料庫: mySQL、SQLite
+              <br>美術工具: AI、PS
+              <br>
+            </p>
+          </div>
+        </div>
+        
+      </div>
+       <div class="page_area1">
+        <div class="page_area1_imgBx">
+          <img src="../assets/images/portfolio/nonogram.jpg" alt>
+        </div>
+        <div class="page_area1_content">
+          <div class="page_area1_content_titleEN">
+            <p>NONOGRAM</p>
+          </div>
+          <div class="page_area1_content_titleTC">
+            <p>數織 5x5</p>
+            <p class="secTitle">Android App</p>
+          </div>
+          <div class="page_area1_content_details">
+            <p>
+              利用 lua、CoronaSDK完成的小品遊戲。
+            </p>
+            <p>
+              程式語言: Lua
+              <br>其他工具: CoronaSDK
+              <br>美術工具: 小畫家
+              <br>
+            </p>
+          </div>
+        </div>
+        
       </div>
     </div>
   </article>

@@ -2,7 +2,7 @@
   <article>
     <div class="article_inner">
       <div class="skill">
-        <div class="skill_bg"><img src="../assets/images/pageBack/skill.jpg" alt=""></div>
+        <!-- <div class="skill_bg"><img src="../assets/images/pageBack/skill.jpg" alt=""></div> -->
         <div class="skill_area1">
           <div class="skill_area1_imgBx">
             <img src="../assets/images/skill/html.png" alt>
@@ -40,7 +40,6 @@
             </div>
             <div class="skill_area1_content_details">
               <p>jQuery, VueJS(VueCLI), NodeJS,</p>
-              <p>BOM, DOM</p>
             </div>
           </div>
         </div>

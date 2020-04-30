@@ -9,6 +9,7 @@
     height:500px;
     z-index:-1;
     transform:translateY(-50%);
+    opacity:0.2;
     &::before{
       content:'';
       position:absolute;
