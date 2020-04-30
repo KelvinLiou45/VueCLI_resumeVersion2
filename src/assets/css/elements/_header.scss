@@ -68,5 +68,42 @@ header {
         }
       }
     }
+    .header_bumger{
+      cursor:pointer;
+      display:none;
+    }
+    #header_bumgerList{
+      position:absolute;
+      // height:calc(100% - 80px);
+      height:0vh;
+      width:100vw;
+      top:80px;
+      left:0;
+      z-index:3;
+      // display:block;
+      opacity: 0;
+      transition:0.5s;
+      background:red;
+      nav{
+        height:100%;
+        background:white;
+        ul{
+          height:100%;
+          li{
+            @include displayFlex();
+            border-bottom:1px solid $colorMain_black;
+            cursor:pointer;
+            height:20%;
+            a{
+              @include displayFlex();
+              color:$colorMain_black;
+              text-decoration: none;
+              height:100%;
+              width:100%;
+            }
+          }
+        }
+      }
+    }
   }
 }

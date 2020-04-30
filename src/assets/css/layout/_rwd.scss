@@ -1,0 +1,133 @@
+//Desktop
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+//Tablet
+@media (min-width: 768px) and (max-width: 991px) {
+    header {
+        font-family: $fontStyle;
+        width: 100vw;
+        height: 80px;
+        .header_inner {
+          .header_list {
+            display: none;
+          }
+          .header_bumger {
+            display: block;
+          }
+          #header_bumgerList {
+            height:0vh;
+            // display:none;
+          }
+        }
+      }
+      article {
+        .article_inner {
+          .home_area1 {
+            width: 90%;
+            flex-wrap: wrap;
+            .home_area1_imgBx {
+              width: 80%;
+            }
+            .home_area1_content {
+              width: 100%;
+              margin-top: 50px;
+              padding: 5px;
+            }
+          }
+          .page_area1 {
+            @include displayFlex(row, center);
+            flex-wrap: wrap;
+            width: 100%;
+            .page_area1_imgBx {
+            }
+            .page_area1_content {
+              width: 80%;
+              padding: 20px 20px;
+            }
+          }
+        }
+      }
+      .skill {
+        .skill_area1 {
+          width: 100%;
+        }
+      }
+      footer {
+        width: 100vw;
+        .footer_inner {
+          flex-wrap: wrap;
+          .footer_inner_contact {
+            width: 100%;
+          }
+          .footer_inner_link {
+            width: 100vw;
+            background: white;
+          }
+        }
+      }
+}
+//Mobile
+@media (max-width: 768px) {
+  header {
+    font-family: $fontStyle;
+    width: 100vw;
+    height: 80px;
+    .header_inner {
+      .header_list {
+        display: none;
+      }
+      .header_bumger {
+        display: block;
+      }
+      #header_bumgerList {
+        height:0vh;
+        // display:none;
+      }
+    }
+  }
+  article {
+    .article_inner {
+      .home_area1 {
+        width: 90%;
+        flex-wrap: wrap;
+        .home_area1_imgBx {
+          width: 80%;
+        }
+        .home_area1_content {
+          width: 100%;
+          margin-top: 50px;
+          padding: 5px;
+        }
+      }
+      .page_area1 {
+        @include displayFlex(row, center);
+        flex-wrap: wrap;
+        width: 100%;
+        .page_area1_imgBx {
+        }
+        .page_area1_content {
+          width: 80%;
+          padding: 20px 20px;
+        }
+      }
+    }
+  }
+  .skill {
+    .skill_area1 {
+      width: 100%;
+    }
+  }
+  footer {
+    width: 100vw;
+    .footer_inner {
+      flex-wrap: wrap;
+      .footer_inner_contact {
+        width: 100%;
+      }
+      .footer_inner_link {
+        width: 100vw;
+        background: white;
+      }
+    }
+  }
+}
