@@ -17,7 +17,7 @@
             <p>
               ●學習內容:
               <br>1. 主要以 Java 為學習主軸。
-              <br>2. 專題製作: Android系統用記帳軟體。(SQLite、SQL)
+              <br>2. 專題製作: Android系統用記帳軟體。(詳見portfolio頁面)
               <br>3. RVSP 2011 第一屆國際機器人競賽 - 金牌
             </p>
             <p>
